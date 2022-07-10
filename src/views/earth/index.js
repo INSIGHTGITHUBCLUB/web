@@ -399,7 +399,7 @@ export default class Render {
 
   // 卫星
   async drawSatellite() {
-    const obj = await loadObj("/satellite.obj");
+    const obj = await loadObj(process.env.NODE_ENV === 'development'? "/satellite.obj": "/web/satellite.obj");
     const geos = obj.children.map((mesh) => mesh.geometry);
     this.satellite = new THREE.Group();
     this.objList.push(this.satellite)

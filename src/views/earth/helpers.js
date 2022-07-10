@@ -14,7 +14,7 @@ export function loadImg(src) {
 
 export function loadFont() {
   return new Promise((resolve) => {
-    new FontLoader().load('/droid_sans_mono_regular.typeface.json', result => {
+    new FontLoader().load(process.env.NODE_ENV === 'development'? "/droid_sans_mono_regular.typeface.json": "/web/droid_sans_mono_regular.typeface.json", result => {
       resolve(result)
     })
   });
