@@ -259,6 +259,7 @@ export default {
     height: 500px;
     margin: 0 auto;
     position: relative;
+    margin-top: 30px;
     .bg {
       width: 100%;
       height: calc(100%);

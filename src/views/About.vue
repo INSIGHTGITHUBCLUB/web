@@ -1,5 +1,5 @@
 <template>
-  <div class="videoSwiper">
+  <div class="videoSwiper" style="background: #0C2446; color: #fff">
     <swiper :options="swiperOption2" ref="myswiper" class="title">
       <swiper-slide v-for="(item, index) in videoList" :key="index">
         <div
@@ -17,7 +17,7 @@
               margin-top: 200px;
             "
           >
-            <h1 style="color: #724eb0">{{ item.title }}</h1>
+            <h1 v-html="item.title"></h1>
             <div style="margin: 10px 5px" v-if="item.id == 15">
               <el-input
                 :readonly="readonly"
@@ -175,7 +175,7 @@ export default {
           id: 0,
           type: 1,
           img: require("@/assets/Video/tu1.jpg"),
-          title: "Lesson 1: The importance of information security",
+          title: "Session 1: Security Need<br/>Lesson 1: The importance of information security",
           content: "",
         },
         {
@@ -647,7 +647,7 @@ export default {
 .question {
   font-size: 26px;
   letter-spacing: -2px;
-  color: #212121;
+  // color: #212121;
   font-weight: bold;
 }
 .answer {
@@ -684,7 +684,7 @@ export default {
 .dragTitle {
   font-size: 35px;
   font-weight: bold;
-  color: #212121;
+  // color: #212121;
   text-align: center;
   position: absolute;
   top: 130px;

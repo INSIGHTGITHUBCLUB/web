@@ -59,7 +59,7 @@ export default {
     }
   },
   data: () => ({
-    activeIndex: 7,
+    activeIndex: 6,
     userStore: userStore(),
     colorSet: [
       ["rgba(0, 103, 141, 1)", "rgba(13, 37, 71, 0)"],

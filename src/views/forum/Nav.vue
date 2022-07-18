@@ -27,23 +27,22 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 170px;
+  padding: 10px 215px;
   .left {
     width: 70%;
     button {
+      box-sizing: border-box;
+      background-color: #69718b;
       border: 0;
-      background-color: transparent;
-      color: #000;
+      border-radius: 5px;
+      color: #fff;
       outline: none;
-      padding: 0 20px;
-      font-size: 15px;
       cursor: pointer;
-      font-family: Avenir, Helvetica, Arial, sans-serif;
+      padding: 10px;
     }
   }
   .right {
     width: 20%;
-
   }
 }
 </style>

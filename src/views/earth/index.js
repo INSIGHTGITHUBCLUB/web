@@ -167,7 +167,7 @@ export default class Render {
     this.earthFloatText = new THREE.Group();
     this.objList.push(this.earthFloatText)
     this.floatText(
-      "Security Need, Personal Security, Enterprise Security.Security Need, Personal Security, Enterprise Security",
+      "Security Need Personal Security Enterprise Security.Security Need Personal Security Enterprise Security",
       12,
       360,
       15

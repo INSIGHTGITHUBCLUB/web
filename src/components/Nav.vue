@@ -82,7 +82,7 @@ export default {
         id: 4,
         name: "Evalution",
       },
-      { id: 5, name: "Forum" },
+      // { id: 5, name: "Forum" },
       { id: 6, name: "Contact" },
       {
         id: 7,
@@ -127,7 +127,7 @@ export default {
           case "Lesson 3 Game":
           this.$router.push("/activity?game=3");
           break;
-        case "Forum":
+        case "Support":
           this.$router.push("/forum");
           break;
         case "Contact":

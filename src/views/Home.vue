@@ -16,26 +16,15 @@
     </div>
     <div class="content_baram2">
       <div class="title">
-        <h1>Trigger events: Why we created the iSecurity platform?</h1>
         <div style="color: #b7bbcb; line-height: 20px; margin: 20px">
-          It has come to our attention that employees are often tired of
-          watching information security<br />
-          awareness training created by PowerPoint. Instead of embracing the
-          learning of information<br />
-          security, employees learned the knowledge with minimum interests and
-          responded by resenting of <br />learning it. The website adopted the
-          learning with technology constructivist models, which<br />
-          emphasize on the technology as a tool in a learning activity. It is
-          designed to make employees more<br />
-          active in their learning and use of technology. It trains employees by
-          using gamified quizzes and<br />
-          engaging videos based on real-world scenarios.
+          Why we created the iSecurity platform?<br />
+          It has come to our attention that employees are often tired of watching information security awareness training created by PowerPoint. Instead of embracing the learning of information security, employees learned the knowledge with minimum interests and responded by resenting of learning it. The website adopted the learning with technology constructivist models, which emphasize on the technology as a tool in a learning activity. It is designed to make employees more active in their learning and use of technology. It trains employees by using gamified quizzes and engaging videos based on real-world scenarios.
         </div>
       </div>
     </div>
     <div class="content_baram3">
       <div class="title">
-        Objectives: What is the goal of the iSecurity platform?
+        What is the goal of the iSecurity platform?
       </div>
       <div class="Objectives">
         <div class="Objectives_title">
@@ -59,8 +48,7 @@
           </div>
 
           <div style="color: #b7bbcb">
-            Interact with employees by enhancing their understanding of personal
-            security.
+            Interact with employees by enhancing their understanding of personal security.
           </div>
         </div>
         <div class="Objectives_title">
@@ -71,71 +59,49 @@
             <p>Evaluate</p>
           </div>
           <div style="color: #b7bbcb">
-            Measure the effectiveness of enterprise security training by
-            examining employees’ problem-solving abilities.
+            Measure the effectiveness of enterprise security training by examining employees’ problem-solving abilities.
           </div>
         </div>
       </div>
     </div>
     <div class="content_baram4">
-      <div>Strengths: What are the benefits of the iSecurity platform?</div>
+      <div>What are the benefits of the iSecurity platform?</div>
       <p>
-        <i class="el-icon-circle-check"></i>One platform fits all —— The
-        eLearning platform has everything you need to drive employee information
-        security awareness.
+        <i class="el-icon-circle-check"></i>One platform fits all —— The eLearning platform has everything you need to drive employee information security awareness.
       </p>
       <p>
-        <i class="el-icon-circle-check"></i>Division of the learning unit —— The
-        eLearning platform has three learning sessions, which divides the course
-        content from the micro level to the macro level.
+        <i class="el-icon-circle-check"></i>Division of the learning unit —— The eLearning platform has three learning sessions, which divides the course content from the micro level to the macro level.
       </p>
       <p>
-        <i class="el-icon-circle-check"></i>Gamification design —— The eLearning
-        platform engages users by embedding gamified elements throughout the
-        learning process.
+        <i class="el-icon-circle-check"></i>Gamification design —— The eLearning platform engages users by embedding gamified elements throughout the learning process.
       </p>
       <p>
-        <i class="el-icon-circle-check"></i>Story-based learning experience ——
-        The eLearning platform deliver training materials by introducing
-        interesting stories to employees.
+        <i class="el-icon-circle-check"></i>Story-based learning experience —— The eLearning platform deliver training materials by introducing interesting stories to employees.
       </p>
       <p>
-        <i class="el-icon-circle-check"></i>Engaging videos —— The eLearning
-        platform provides personalized videos in each session to attract
-        employees’ attention.
+        <i class="el-icon-circle-check"></i>Engaging videos —— The eLearning platform provides personalized videos in each session to attract employees’ attention.
       </p>
       <p>
-        <i class="el-icon-circle-check"></i>Gamified quizzes —— Gamified quizzes
-        increase the joy of the learning experience, allowing employees to
-        evaluate their learning results and reinforce their understanding of the
-        training content.
+        <i class="el-icon-circle-check"></i>Gamified quizzes —— Gamified quizzes increase the joy of the learning experience, allowing employees to evaluate their learning results and reinforce their understanding of the training content.
       </p>
       <p>
-        <i class="el-icon-circle-check"></i>Guided learning with feedback ——
-        Employees will receive feedback and guided suggestions after completing
-        each quiz.
+        <i class="el-icon-circle-check"></i>Guided learning with feedback —— Employees will receive feedback and guided suggestions after completing each quiz.
       </p>
       <p>
-        <i class="el-icon-circle-check"></i>Interactive training content based
-        on real-world scenarios —— Employees could get hands-on experience by
-        putting the knowledge they have learned into practice.
+        <i class="el-icon-circle-check"></i>Interactive training content based on real-world scenarios —— Employees could get hands-on experience by putting the knowledge they have learned into practice.
       </p>
       <p>
-        <i class="el-icon-circle-check"></i>Reward system with leaderboard ——
-        Leaderboard uses the concept of positive reinforcement to invite
-        competition and promotes the overall learning efficiency. After
-        completing each session, employees will receive corresponding scores
-        based on their performance and the results will show on the leaderboard
-        to mark their achievement.
+        <i class="el-icon-circle-check"></i>Reward system with leaderboard —— Leaderboard uses the concept of positive reinforcement to invite competition and promotes the overall learning efficiency. After completing each session, employees will receive corresponding scores based on their performance and the results will show on the leaderboard to mark their achievement.
       </p>
       <p>
-        <i class="el-icon-circle-check"></i>Multimedia Learning resources ——
-        Multimedia learning resources is embedded in the iSecurity learning
-        platform, such as videos,
+        <i class="el-icon-circle-check"></i>Multimedia Learning resources —— Multimedia learning resources is embedded in the iSecurity learning platform, such as videos, slides, infographics, self-designed games, and quizzes. Employees could learn the knowledge with plethora number of choices.
+      </p>
+      <p>
+        <i class="el-icon-circle-check"></i>Post-class support —— Whether employees have questions or not, they could receive post class support after completing each session to clarify any concerns or inquiries they might have, such as email contacts, chat-bot support, and one-on-one tutorials.
       </p>
     </div>
     <div class="content_baram5">
-      <div>Strengths: What are the benefits of the iSecurity platform?</div>
+      <div>Core Features</div>
       <el-row class="rows">
         <el-col :span="4">
           <div class="grid-contents">
@@ -273,7 +239,7 @@ export default {
     position: relative;
     padding: 80px 150px;
     background: url("../../src/assets/Video/work1.png") center/cover no-repeat;
-    height: 650px;
+    height: 600px;
     background-size: 100% 100%;
     > img {
       position: absolute;
@@ -330,7 +296,7 @@ export default {
 }
 .content_baram4 {
   background: url("../../src/assets/Video/work3.jpg") center/cover no-repeat;
-  height: 740px;
+  height: 1063px;
   background-size: 100% 100%;
   padding: 90px 20% 30px 20%;
   > div {

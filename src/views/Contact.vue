@@ -51,7 +51,7 @@ export default {
     Nav,
   },
   data: () => ({
-    activeIndex: 6,
+    activeIndex: 5,
     form: {
       firstName: "",
       lastName: "",

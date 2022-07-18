@@ -1,6 +1,8 @@
 <template>
-  <div class="earth" @click="$router.push('/home')">
-    <h1>Welcome to the iSecurity e-Learning Platform！</h1>
+  <div class="earth">
+    <h1 style="cursor: pointer" @click="go">
+      Welcome to the iSecurity e-Learning Platform！
+    </h1>
     <div id="webgl-container"></div>
     <div class="footer">
       <p>The University of Hong Kong</p>
@@ -20,6 +22,12 @@ export default {
   mounted() {
     this.obj = new Render();
   },
+  methods: {
+    go() {
+      this.$router.push("/home");
+      this.$message('Welcome to the iSecurity e-Learning Platform!');
+    },
+  },
   beforeDestroy() {
     this.obj.clearScene();
   },
@@ -32,12 +40,14 @@ export default {
   height: 100%;
   h1 {
     position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
     padding: 20px;
-    color: #fff
+    color: #fff;
   }
   .footer {
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     left: 50%;
     transform: translate(-50%, 0);
     text-align: center;

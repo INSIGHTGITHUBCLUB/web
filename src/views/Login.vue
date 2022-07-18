@@ -28,7 +28,7 @@ export default {
     Nav,
   },
   data: () => ({
-    activeIndex: 8,
+    activeIndex: 7,
     userStore: userStore(),
     username: "",
     password: "",
