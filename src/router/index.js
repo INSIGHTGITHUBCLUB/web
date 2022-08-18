@@ -92,6 +92,12 @@ const routes = [
       import(/* webpackChunkName: "Contact" */ "../views/Contact.vue"),
   },
   {
+    path: "/evalution",
+    name: "Evalution",
+    component: () =>
+      import(/* webpackChunkName: "Evalution" */ "../views/Evalution.vue"),
+  },
+  {
     path: "/login",
     name: "Login",
     component: () =>

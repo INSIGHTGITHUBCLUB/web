@@ -106,6 +106,9 @@ export default {
         case "Home":
           this.$router.push("/home");
           break;
+        case "Evalution":
+          this.$router.push("/evalution");
+          break;
         case "Lessons1":
           this.$router.push("/about");
           break;
